@@ -8,5 +8,5 @@ import { Component, input } from '@angular/core';
 export class GifsListItemComponent {
 
   imageUrl = input.required<string>()
-  classGifsListOptions: string = 'h-auto max-w-full rounded-lg';
+  classGifsListOptions: string = 'h-full w-full rounded-lg object-cover';
 }
